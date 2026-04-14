@@ -59,10 +59,10 @@ export function ContactSection() {
                 </CardHeader>
                 <CardContent>
                   <a
-                    href="mailto:umambauma4@gmail.com"
+                    href="mailto:kelechi.uma@example.com"
                     className="text-primary hover:underline break-all"
                   >
-                    umambauma4@gmail.com
+                    kelechi.uma@example.com
                   </a>
                 </CardContent>
               </Card>
@@ -79,12 +79,12 @@ export function ContactSection() {
                 </CardHeader>
                 <CardContent>
                   <a
-                    href="https://wa.me/2349069438958"
+                    href="https://wa.me/1234567890"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-primary hover:underline"
                   >
-                    +2349069438958
+                    +1 (234) 567-890
                   </a>
                 </CardContent>
               </Card>
