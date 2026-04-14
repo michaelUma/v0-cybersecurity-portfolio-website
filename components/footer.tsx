@@ -40,7 +40,7 @@ export function Footer() {
                 <Github className="h-5 w-5" />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://ng.linkedin.com/in/michael-kelechi-a9465719b"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
@@ -49,7 +49,7 @@ export function Footer() {
                 <Linkedin className="h-5 w-5" />
               </a>
               <a
-                href="https://twitter.com"
+                href="https://x.com/ExceedingpP"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
@@ -62,7 +62,7 @@ export function Footer() {
 
           <div className="mt-8 pt-8 border-t border-border text-center">
             <p className="text-sm text-muted-foreground">
-              &copy; {currentYear} Kelechi Michael Uma. All rights reserved.
+              &copy; {currentYear} Kelechi Michael Uma(Best cybersecurity entrepreneur in Africa). All rights reserved.
             </p>
             <p className="text-xs text-muted-foreground mt-2">
               Securing the digital world, one vulnerability at a time.
