@@ -39,6 +39,40 @@ const projects = [
     ],
     tags: ["XSS", "Burp Suite", "Web Security", "OWASP"],
   },
+  {
+    title: "Metasploit Framework Practice",
+    description:
+      "Self-study project practicing the exploitation workflow against intentionally vulnerable lab machines (e.g. Metasploitable2) in an isolated personal Kali Linux lab — no real or third-party systems involved.",
+    findings: [
+      "Practiced target enumeration into exploit selection workflow",
+      "Worked through common vulnerable-service exploitation paths",
+      "Documented each step to build a repeatable personal methodology",
+      "Confirmed lab isolation before running any exploit",
+    ],
+    tags: ["Metasploit", "Kali Linux", "Personal Lab", "Self-Study"],
+  },
+  {
+    title: "AI-Assisted Recon Automation",
+    description:
+      "Built a small AI-assisted automation tool on Kali Linux to speed up repetitive parts of the reconnaissance workflow (parsing scan output, drafting initial notes) during personal lab practice.",
+    findings: [
+      "Automated repetitive scan-output parsing",
+      "Used AI assistance to draft first-pass recon notes for review",
+      "Kept a human-in-the-loop review step before acting on any output",
+    ],
+    tags: ["Automation", "Kali Linux", "Personal Lab", "Python"],
+  },
+  {
+    title: "Phishing Simulation Lab",
+    description:
+      "Built a simulated phishing page in an isolated personal lab to study social-engineering techniques and how they can be detected — never deployed against real people or systems.",
+    findings: [
+      "Studied common phishing page structures and red flags",
+      "Practiced identifying the same techniques from a defender's perspective",
+      "Kept the exercise fully contained to a local/isolated lab environment",
+    ],
+    tags: ["Social Engineering", "Personal Lab", "Security Awareness"],
+  },
 ]
 
 export function ProjectsSection() {
