@@ -16,17 +16,20 @@ export function AboutSection() {
           <div className="grid md:grid-cols-2 gap-12 items-start">
             <div className="space-y-6">
               <h3 className="text-2xl md:text-3xl font-semibold text-foreground text-balance">
-                Passionate about securing the digital world
+                From electrical engineering to defending the digital world
               </h3>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  I&apos;m a dedicated cybersecurity enthusiast with a strong focus on web application security and vulnerability assessment. My journey in cybersecurity began with a curiosity about how systems can be protected and fortified against malicious attacks.
+                  I&apos;m a QA and cybersecurity professional based in Lagos, currently working as a QA Intern at Famous Holding, where I test software for functional correctness and security weaknesses side by side. My background is actually in Electrical/Electronics Engineering (B.Eng, Michael Okpara University of Agriculture) — the shift into tech started with IT support work, and curiosity about *why* systems fail turned into a real focus on how they get broken into.
                 </p>
                 <p>
-                  As an aspiring ethical hacker, I continuously expand my knowledge through hands-on practice, online labs, and real-world security assessments. I believe in responsible disclosure and ethical approaches to identifying and mitigating security vulnerabilities.
+                  Since then I&apos;ve built hands-on skill through Cisco Academy training (Introduction to Cybersecurity, Ethical Hacking, and ongoing Network Defense), practical labs in a personal Kali Linux environment, and real testing work — including confidential freelance engagements checking client websites for data exposure and leaks, alongside my day-to-day QA role.
                 </p>
                 <p>
-                  My goal is to help businesses of all sizes understand their security posture and implement effective measures to protect their digital assets from cyber threats.
+                  I believe in responsible disclosure and testing only within clear authorization — every lab project on this site, from vulnerability discovery to social-engineering simulations, was run in an isolated environment I control, never against real targets. That discipline is the same one I bring to client work.
+                </p>
+                <p>
+                  My goal is straightforward: help businesses actually understand their security posture — not just get a checklist — and build the kind of quality-first, security-aware engineering practice I&apos;d want protecting my own systems.
                 </p>
               </div>
             </div>
