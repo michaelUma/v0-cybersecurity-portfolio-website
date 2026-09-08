@@ -47,7 +47,8 @@ export function HeroSection() {
           </p>
           
           <p className="text-muted-foreground text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed text-pretty">
-            I help businesses secure their websites and protect against cyber threats through comprehensive security assessments and ethical hacking.
+            I help businesses secure their websites and protect against cyber threats through comprehensive security assessments and ethical hacking. I test softwares for vulnerabilities and security flaws.
+            I find hidden loopholes in your softwares. 
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
