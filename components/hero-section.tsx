@@ -1,5 +1,6 @@
 "use client"
 
+import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Terminal, ChevronDown } from "lucide-react"
@@ -15,6 +16,20 @@ export function HeroSection() {
       
       <div className="container mx-auto px-4 md:px-6 relative z-10">
         <div className="max-w-3xl mx-auto text-center">
+          {/* Profile photo */}
+          <div className="mb-8 flex justify-center">
+            <div className="relative w-32 h-32 md:w-36 md:h-36 rounded-full overflow-hidden border-2 border-primary/50 shadow-[0_0_30px_rgba(0,255,200,0.15)]">
+              <Image
+                src="/IMG_20260721_030650_479.jpg"
+                alt="Kelechi Michael Uma"
+                fill
+                sizes="144px"
+                className="object-cover"
+                priority
+              />
+            </div>
+          </div>
+
           {/* Terminal-style intro */}
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-secondary/50 border border-border mb-8">
             <Terminal className="h-4 w-4 text-primary" />
