@@ -1,4 +1,4 @@
-import { Shield, Target, Lock } from "lucide-react"
+import { Shield, Target, Lock, Bug, Crosshair } from "lucide-react"
 
 export function AboutSection() {
   return (
@@ -72,6 +72,34 @@ export function AboutSection() {
                     <h4 className="font-medium text-foreground mb-2">Ethical Hacking</h4>
                     <p className="text-sm text-muted-foreground">
                       Legal and authorized testing to identify vulnerabilities before malicious actors do.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="p-6 rounded-lg bg-card border border-border">
+                <div className="flex items-start gap-4">
+                  <div className="p-2 rounded-md bg-primary/10">
+                    <Bug className="h-5 w-5 text-primary" />
+                  </div>
+                  <div>
+                    <h4 className="font-medium text-foreground mb-2">Software Testing</h4>
+                    <p className="text-sm text-muted-foreground">
+                      Functional, regression, and exploratory testing to catch bugs before users ever see them.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="p-6 rounded-lg bg-card border border-border">
+                <div className="flex items-start gap-4">
+                  <div className="p-2 rounded-md bg-primary/10">
+                    <Crosshair className="h-5 w-5 text-primary" />
+                  </div>
+                  <div>
+                    <h4 className="font-medium text-foreground mb-2">Penetration Testing</h4>
+                    <p className="text-sm text-muted-foreground">
+                      Hands-on offensive testing in personal lab environments — from network reconnaissance to exploitation.
                     </p>
                   </div>
                 </div>
