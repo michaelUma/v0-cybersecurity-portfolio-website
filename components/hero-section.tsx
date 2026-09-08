@@ -43,7 +43,7 @@ export function HeroSection() {
           </h1>
           
           <p className="text-lg md:text-xl text-primary font-medium mb-6">
-            Cybersecurity Analyst | Ethical Hacker | Pen Tester
+            Cybersecurity Analyst | Ethical Hacker | Pen Tester | Software Tester | Security Tester 
           </p>
           
           <p className="text-muted-foreground text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed text-pretty">
