@@ -1,36 +1,46 @@
-import { Briefcase, Wrench } from "lucide-react"
+import { Briefcase, Wrench, Shield } from "lucide-react"
 
 const experience = [
   {
     role: "QA Intern",
-    org: "Current Internship",
-    period: "Present",
+    org: "Famous Holding",
+    period: "Feb 2026 — Present",
     icon: Briefcase,
     points: [
-      "Support software quality activities and learn practical QA workflows in a professional team environment.",
+      "Support software quality activities across functional, regression, and security testing.",
       "Identify, document, and communicate application issues clearly to technical and non-technical stakeholders.",
-      "Build working knowledge of the software development lifecycle (SDLC) and how QA integrates with development sprints.",
+      "Apply a security-aware lens to QA work — testing for common web vulnerabilities alongside standard functional coverage.",
     ],
   },
   {
-    role: "IT Support",
-    org: "19 Empire",
-    period: "",
-    icon: Wrench,
+    role: "Independent Contract Security Testing",
+    org: "Freelance",
+    period: "Ongoing, alongside main role",
+    icon: Shield,
     points: [
-      "Provided technical support and troubleshooting for end users and computer systems.",
-      "Resolved connectivity, software, and general IT issues under time pressure.",
-      "Applied networking and systems knowledge to diagnose root causes of technical problems.",
+      "Perform website security reviews for private clients, including a confidential engagement testing a client's site for data exposure and leak risks.",
+      "Scope testing to client authorization, then document findings and recommended fixes in plain language.",
     ],
   },
   {
     role: "IT Support",
     org: "Elmas",
-    period: "",
+    period: "Dec 2023 — Feb 2026",
     icon: Wrench,
     points: [
       "Supported day-to-day IT operations and troubleshooting, maintaining reliable system uptime for users.",
       "Assisted users with technical issues, translating vague symptom reports into clear, actionable problem statements.",
+    ],
+  },
+  {
+    role: "IT Support",
+    org: "19 Empire",
+    period: "Dec 2021 — Dec 2023",
+    icon: Wrench,
+    points: [
+      "Provided technical support and troubleshooting for end users and computer systems.",
+      "Resolved connectivity, software, and general IT issues under time pressure.",
+      "Applied networking and systems knowledge to diagnose root causes of technical problems.",
     ],
   },
 ]
