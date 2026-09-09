@@ -14,6 +14,7 @@ const projects = [
       "Documented findings and remediation steps",
     ],
     tags: ["DVWA", "SQL Injection", "XSS", "CSRF"],
+    link: "https://github.com/michaelUma/dvwa-security-testing.git"
   },
   {
     title: "Network Reconnaissance with Nmap",
@@ -104,7 +105,7 @@ export function ProjectsSection() {
                       <div>
                         <CardTitle className="text-foreground flex items-center gap-2">
                           {project.title}
-                          <ExternalLink className="h-4 w-4 text-muted-foreground" />
+                          <ExternalLink className="h-4 w-4 "/>
                         </CardTitle>
                       </div>
                     </div>
