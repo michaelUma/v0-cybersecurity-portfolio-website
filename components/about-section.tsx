@@ -20,7 +20,7 @@ export function AboutSection() {
               </h3>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  I&apos;m a QA and cybersecurity professional based in Lagos, currently working as a QA Intern at Famous Holding, where I test software for functional correctness and security weaknesses side by side. My background is actually in Electrical/Electronics Engineering (B.Eng, Michael Okpara University of Agriculture) — the shift into tech started with IT support work, and curiosity about *why* systems fail turned into a real focus on how they get broken into.
+                  I&apos;m a Quality Assurance (QA) and Cybersecurity professional based in Lagos, currently working as a QA Intern at Famous Holding, where I test software for functional correctness and security weaknesses side by side. My background is actually in Electrical/Electronics Engineering (B.Eng, Michael Okpara University of Agriculture) — the shift into tech started with IT support work, and curiosity about *why* systems fail turned into a real focus on how they get broken into.
                 </p>
                 <p>
                   Since then I&apos;ve built hands-on skill through Cisco Academy training (Introduction to Cybersecurity, Ethical Hacking, and ongoing Network Defense), practical labs in a personal Kali Linux environment, and real testing work — including confidential freelance engagements checking client websites for data exposure and leaks, alongside my day-to-day QA role.
