@@ -74,8 +74,8 @@ export function ContactSection() {
                 <label className="block text-sm font-medium text-foreground mb-1">Email</label>
                 <input
                   type="email"
-                  name="umambauma4@_email"
-                  placeholder="umambauma4@gmail.com"
+                  name="user_email"
+                  placeholder="your@email.com"
                   required
                   className="w-full p-2.5 bg-background border border-border rounded-md text-foreground focus:outline-none focus:ring-1 focus:ring-primary"
                 />
@@ -87,7 +87,7 @@ export function ContactSection() {
               <input
                 type="text"
                 name="subject"
-                placeholder="LAYOUT?"
+                placeholder="What is this regarding?"
                 required
                 className="w-full p-2.5 bg-background border border-border rounded-md text-foreground focus:outline-none focus:ring-1 focus:ring-primary"
                 />
