@@ -14,7 +14,7 @@ const projects = [
       "Documented findings and remediation steps",
     ],
     tags: ["DVWA", "SQL Injection", "XSS", "CSRF"],
-    link: "https://github.com/michaelUma/dvwa-security-testing.git"
+    link: "https://github.com/michaelUma/dvwa-security-testing",
   },
   {
     title: "Network Reconnaissance with Nmap",
@@ -27,6 +27,7 @@ const projects = [
       "Created detailed network documentation",
     ],
     tags: ["Nmap", "Network Scanning", "Port Analysis", "Service Detection"],
+    link: "https://github.com/michaelUma/network-reconnaissance-nmap",
   },
   {
     title: "XSS Vulnerability Discovery",
@@ -39,6 +40,7 @@ const projects = [
       "Provided secure coding recommendations",
     ],
     tags: ["XSS", "Burp Suite", "Web Security", "OWASP"],
+    link: null,
   },
   {
     title: "Metasploit Framework Practice",
@@ -51,6 +53,7 @@ const projects = [
       "Confirmed lab isolation before running any exploit",
     ],
     tags: ["Metasploit", "Kali Linux", "Personal Lab", "Self-Study"],
+    link: "https://github.com/michaelUma/meta-RAT",
   },
   {
     title: "AI-Assisted Recon Automation",
@@ -62,6 +65,7 @@ const projects = [
       "Kept a human-in-the-loop review step before acting on any output",
     ],
     tags: ["Automation", "Kali Linux", "Personal Lab", "Python"],
+    link: null,
   },
   {
     title: "Phishing Simulation Lab",
@@ -73,6 +77,7 @@ const projects = [
       "Kept the exercise fully contained to a local/isolated lab environment",
     ],
     tags: ["Social Engineering", "Personal Lab", "Security Awareness"],
+    link: null,
   },
 ]
 
@@ -105,7 +110,19 @@ export function ProjectsSection() {
                       <div>
                         <CardTitle className="text-foreground flex items-center gap-2">
                           {project.title}
-                          <ExternalLink className="h-4 w-4 "/>
+                          {project.link ? (
+                            <a
+                              href={project.link}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-muted-foreground hover:text-primary transition-colors"
+                              aria-label={`View ${project.title} on GitHub`}
+                            >
+                              <ExternalLink className="h-4 w-4" />
+                            </a>
+                          ) : (
+                            <ExternalLink className="h-4 w-4 opacity-20" />
+                          )}
                         </CardTitle>
                       </div>
                     </div>
